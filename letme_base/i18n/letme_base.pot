@@ -1,0 +1,335 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* letme_base
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 20.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-10 02:36+0000\n"
+"PO-Revision-Date: 2026-10-10 02:36+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: letme_base
+#: model:res.groups,name:letme_base.group_role_accountant
+msgid "Accountant"
+msgstr ""
+
+#. module: letme_base
+#: model_terms:ir.ui.view,arch_db:letme_base.letme_lock_month_wizard_view_form
+msgid "All Entries"
+msgstr ""
+
+#. module: letme_base
+#: model:ir.model.fields,help:letme_base.field_letme_lock_month_wizard__current_fiscalyear_lock_date
+msgid ""
+"Any entry up to and including that date will be postponed to a later time, "
+"in accordance with its journal's sequence."
+msgstr ""
+
+#. module: letme_base
+#: model:ir.model.fields,help:letme_base.field_letme_lock_month_wizard__current_tax_lock_date
+msgid ""
+"Any entry with taxes up to and including that date will be postponed to a "
+"later time, in accordance with its journal's sequence. The tax lock date is "
+"automatically set when the tax closing entry is posted."
+msgstr ""
+
+#. module: letme_base
+#: model:ir.model.fields,help:letme_base.field_letme_lock_month_wizard__current_purchase_lock_date
+msgid ""
+"Any purchase entry prior to and including this date will be postponed to a "
+"later date, in accordance with its journal's sequence."
+msgstr ""
+
+#. module: letme_base
+#: model:ir.model.fields,help:letme_base.field_letme_lock_month_wizard__current_sale_lock_date
+msgid ""
+"Any sales entry prior to and including this date will be postponed to a "
+"later date, in accordance with its journal's sequence."
+msgstr ""
+
+#. module: letme_base
+#: model:ir.module.category,name:letme_base.module_category_cohotech
+msgid "COHOTECH"
+msgstr ""
+
+#. module: letme_base
+#: model:ir.module.module,shortdesc:base.module_letme_base
+msgid "COHOTECH Base"
+msgstr ""
+
+#. module: letme_base
+#: model:res.groups.privilege,name:letme_base.privilege_role
+msgid "COHOTECH Role"
+msgstr ""
+
+#. module: letme_base
+#: model:ir.module.module,summary:base.module_letme_base
+msgid ""
+"COHOTECH roles, own-order restriction, duplicate phone check, monthly lock "
+"dates"
+msgstr ""
+
+#. module: letme_base
+#: model_terms:ir.ui.view,arch_db:letme_base.letme_lock_month_wizard_view_form
+msgid "Cancel"
+msgstr ""
+
+#. module: letme_base
+#. odoo-python
+#: code:addons/letme_base/wizard/letme_lock_month_wizard.py:0
+msgid "Choose a valid month and year."
+msgstr ""
+
+#. module: letme_base
+#: model:ir.model.fields,field_description:letme_base.field_letme_lock_month_wizard__company_id
+msgid "Company"
+msgstr ""
+
+#. module: letme_base
+#: model:ir.model,name:letme_base.model_res_partner
+msgid "Contact"
+msgstr ""
+
+#. module: letme_base
+#: model:ir.model.fields,field_description:letme_base.field_letme_lock_month_wizard__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: letme_base
+#: model:ir.model.fields,field_description:letme_base.field_letme_lock_month_wizard__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: letme_base
+#: model_terms:ir.ui.view,arch_db:letme_base.letme_lock_month_wizard_view_form
+msgid "Current Lock Dates"
+msgstr ""
+
+#. module: letme_base
+#: model:res.groups,name:letme_base.group_role_director
+msgid "Director"
+msgstr ""
+
+#. module: letme_base
+#: model:ir.model.fields,field_description:letme_base.field_letme_lock_month_wizard__display_name
+#: model:ir.model.fields,field_description:letme_base.field_res_partner__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: letme_base
+#: model:ir.model.fields,field_description:letme_base.field_letme_lock_month_wizard__current_fiscalyear_lock_date
+msgid "Global Lock Date"
+msgstr ""
+
+#. module: letme_base
+#: model:res.groups,comment:letme_base.group_own_orders_only
+msgid ""
+"Hides and protects sale orders of other salespeople, even when Inventory or "
+"Point of Sale rights would allow them. Ignored for users with Sales \"All "
+"Documents\" rights."
+msgstr ""
+
+#. module: letme_base
+#: model:ir.model.fields,field_description:letme_base.field_letme_lock_month_wizard__id
+#: model:ir.model.fields,field_description:letme_base.field_res_partner__id
+msgid "ID"
+msgstr ""
+
+#. module: letme_base
+#: model:ir.model.fields,field_description:letme_base.field_letme_lock_month_wizard__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: letme_base
+#: model:ir.model.fields,field_description:letme_base.field_letme_lock_month_wizard__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: letme_base
+#: model_terms:ir.ui.view,arch_db:letme_base.letme_lock_month_wizard_view_form
+msgid "Lock"
+msgstr ""
+
+#. module: letme_base
+#: model:ir.model.fields,field_description:letme_base.field_letme_lock_month_wizard__lock_all
+msgid "Lock All Entries"
+msgstr ""
+
+#. module: letme_base
+#: model:ir.model.fields,field_description:letme_base.field_letme_lock_month_wizard__lock_date
+msgid "Lock Date"
+msgstr ""
+
+#. module: letme_base
+#: model:ir.model.fields,field_description:letme_base.field_letme_lock_month_wizard__lock_purchase
+msgid "Lock Purchases"
+msgstr ""
+
+#. module: letme_base
+#: model:ir.model.fields,field_description:letme_base.field_letme_lock_month_wizard__lock_sale
+msgid "Lock Sales"
+msgstr ""
+
+#. module: letme_base
+#: model:ir.model.fields,field_description:letme_base.field_letme_lock_month_wizard__lock_tax
+msgid "Lock Tax Return"
+msgstr ""
+
+#. module: letme_base
+#. odoo-python
+#: code:addons/letme_base/wizard/letme_lock_month_wizard.py:0
+msgid "Lock dates set to %(date)s by %(user)s: %(locks)s"
+msgstr ""
+
+#. module: letme_base
+#: model_terms:ir.ui.view,arch_db:letme_base.letme_lock_month_wizard_view_form
+msgid "Lock up to"
+msgstr ""
+
+#. module: letme_base
+#: model_terms:ir.ui.view,arch_db:letme_base.letme_lock_month_wizard_view_form
+msgid "Locks"
+msgstr ""
+
+#. module: letme_base
+#: model:ir.model.fields,field_description:letme_base.field_letme_lock_month_wizard__month
+msgid "Month"
+msgstr ""
+
+#. module: letme_base
+#: model:ir.actions.act_window,name:letme_base.action_letme_lock_month_wizard
+#: model:ir.model,name:letme_base.model_letme_lock_month_wizard
+#: model:ir.ui.menu,name:letme_base.menu_letme_lock_month_wizard
+#: model_terms:ir.ui.view,arch_db:letme_base.letme_lock_month_wizard_view_form
+msgid "Monthly Lock Dates"
+msgstr ""
+
+#. module: letme_base
+#: model:ir.model.fields,field_description:letme_base.field_letme_lock_month_wizard__allow_unlock
+msgid "Move Lock Dates Back"
+msgstr ""
+
+#. module: letme_base
+#: model:ir.model.fields,help:letme_base.field_letme_lock_month_wizard__allow_unlock
+msgid "Needed when the chosen month is before a date that is already locked."
+msgstr ""
+
+#. module: letme_base
+#: model:res.groups.privilege,placeholder:letme_base.privilege_role
+msgid "No role"
+msgstr ""
+
+#. module: letme_base
+#: model:ir.model.fields,help:letme_base.field_letme_lock_month_wizard__lock_all
+msgid "Nobody can post entries up to this date, except with a lock exception."
+msgstr ""
+
+#. module: letme_base
+#: model:ir.model.fields,field_description:letme_base.field_res_partner__letme_phone_normalized
+#: model:ir.model.fields,field_description:letme_base.field_res_users__letme_phone_normalized
+msgid "Normalized Phone"
+msgstr ""
+
+#. module: letme_base
+#: model:res.groups,name:letme_base.group_own_orders_only
+msgid "Own Sale Orders Only"
+msgstr ""
+
+#. module: letme_base
+#: model:res.groups.privilege,placeholder:letme_base.privilege_own_orders
+msgid "Per Sales rights"
+msgstr ""
+
+#. module: letme_base
+#: model_terms:ir.ui.view,arch_db:letme_base.letme_lock_month_wizard_view_form
+msgid "Period"
+msgstr ""
+
+#. module: letme_base
+#: model:ir.model.fields,field_description:letme_base.field_letme_lock_month_wizard__current_purchase_lock_date
+msgid "Purchase Lock date"
+msgstr ""
+
+#. module: letme_base
+#: model_terms:ir.ui.view,arch_db:letme_base.letme_lock_month_wizard_view_form
+msgid "Purchases"
+msgstr ""
+
+#. module: letme_base
+#: model:res.groups.privilege,name:letme_base.privilege_own_orders
+msgid "Sale Order Visibility"
+msgstr ""
+
+#. module: letme_base
+#: model_terms:ir.ui.view,arch_db:letme_base.letme_lock_month_wizard_view_form
+msgid "Sales"
+msgstr ""
+
+#. module: letme_base
+#: model:ir.model.fields,field_description:letme_base.field_letme_lock_month_wizard__current_sale_lock_date
+msgid "Sales Lock Date"
+msgstr ""
+
+#. module: letme_base
+#: model:res.groups,name:letme_base.group_role_sales
+msgid "Salesperson"
+msgstr ""
+
+#. module: letme_base
+#. odoo-python
+#: code:addons/letme_base/wizard/letme_lock_month_wizard.py:0
+msgid "Select at least one lock."
+msgstr ""
+
+#. module: letme_base
+#. odoo-python
+#: code:addons/letme_base/wizard/letme_lock_month_wizard.py:0
+msgid ""
+"Some lock dates are already after %(date)s. Tick \"Move Lock Dates Back\" if"
+" you really want to reopen that period."
+msgstr ""
+
+#. module: letme_base
+#: model:res.groups,name:letme_base.group_role_store_manager
+msgid "Store Manager"
+msgstr ""
+
+#. module: letme_base
+#: model_terms:ir.ui.view,arch_db:letme_base.letme_lock_month_wizard_view_form
+msgid "Tax Return"
+msgstr ""
+
+#. module: letme_base
+#: model:ir.model.fields,field_description:letme_base.field_letme_lock_month_wizard__current_tax_lock_date
+msgid "Tax Return Lock Date"
+msgstr ""
+
+#. module: letme_base
+#: model:res.groups,name:letme_base.group_role_technician
+msgid "Technician"
+msgstr ""
+
+#. module: letme_base
+#. odoo-python
+#: code:addons/letme_base/models/res_partner.py:0
+msgid ""
+"The phone number %(phone)s is already used by %(partner)s. Open that contact"
+" instead of creating a new one."
+msgstr ""
+
+#. module: letme_base
+#: model:res.groups,name:letme_base.group_role_warehouse
+msgid "Warehouse and Purchasing"
+msgstr ""
+
+#. module: letme_base
+#: model:ir.model.fields,field_description:letme_base.field_letme_lock_month_wizard__year
+msgid "Year"
+msgstr ""
