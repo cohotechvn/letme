@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="letme_lock_month_wizard_view_form" model="ir.ui.view">
+        <field name="name">letme.lock.month.wizard.form</field>
+        <field name="model">letme.lock.month.wizard</field>
+        <field name="arch" type="xml">
+            <form string="Monthly Lock Dates">
+                <group>
+                    <group string="Period">
+                        <field name="company_id" invisible="1"/>
+                        <field name="month"/>
+                        <field name="year" options="{'format': false}"/>
+                        <field name="lock_date" string="Lock up to"/>
+                    </group>
+                    <group string="Locks">
+                        <field name="lock_sale"/>
+                        <field name="lock_purchase"/>
+                        <field name="lock_tax"/>
+                        <field name="lock_all"/>
+                        <field name="allow_unlock"/>
+                    </group>
+                </group>
+                <group string="Current Lock Dates">
+                    <group>
+                        <field name="current_sale_lock_date" string="Sales"/>
+                        <field name="current_purchase_lock_date" string="Purchases"/>
+                    </group>
+                    <group>
+                        <field name="current_tax_lock_date" string="Tax Return"/>
+                        <field name="current_fiscalyear_lock_date" string="All Entries"/>
+                    </group>
+                </group>
+                <footer>
+                    <button name="action_apply" type="object" string="Lock" class="btn-primary"/>
+                    <button special="cancel" string="Cancel"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+
+    <record id="action_letme_lock_month_wizard" model="ir.actions.act_window">
+        <field name="name">Monthly Lock Dates</field>
+        <field name="res_model">letme.lock.month.wizard</field>
+        <field name="view_mode">form</field>
+        <field name="target">new</field>
+    </record>
+
+    <menuitem id="menu_letme_lock_month_wizard"
+              name="Monthly Lock Dates"
+              parent="account.account_closing_menu"
+              action="action_letme_lock_month_wizard"
+              groups="account.group_account_manager"
+              sequence="90"/>
+</odoo>
