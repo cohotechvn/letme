@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="layout" inherit_id="website.layout" name="COHOTECH SEO: head tags">
+        <xpath expr="//head/link[@rel='canonical']" position="after">
+            <t t-foreach="website._letme_get_verification_tags()" t-as="verification">
+        <meta t-att-name="verification[0]" t-att-content="verification[1]"/>
+            </t>
+        <meta t-if="website.letme_max_image_preview and not no_index" name="robots" content="max-image-preview:large"/>
+        </xpath>
+    </template>
+</odoo>

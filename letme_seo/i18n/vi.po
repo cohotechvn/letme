@@ -1,0 +1,869 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* letme_seo
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 20.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-31 17:14+0000\n"
+"PO-Revision-Date: 2026-10-31 17:14+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: vi_VN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: letme_seo
+#. odoo-python
+#: code:addons/letme_seo/models/letme_seo_audit.py:0
+msgid "%(count)s image(s) have no alt text describing them."
+msgstr "%(count)s ảnh chưa có văn bản thay thế (alt) mô tả ảnh."
+
+#. module: letme_seo
+#. odoo-python
+#: code:addons/letme_seo/models/letme_seo_audit.py:0
+msgid "%(count)s issue(s) fixed."
+msgstr "Đã sửa %(count)s lỗi."
+
+#. module: letme_seo
+#: model:ir.actions.act_window,name:letme_seo.action_letme_seo_not_found
+#: model:ir.ui.menu,name:letme_seo.menu_letme_seo_not_found
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_not_found_view_form
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_not_found_view_list
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_not_found_view_search
+msgid "404 Not Found"
+msgstr "Lỗi 404"
+
+#. module: letme_seo
+#: model:ir.model,name:letme_seo.model_letme_seo_not_found
+msgid "404 Not Found URL"
+msgstr "URL lỗi 404"
+
+#. module: letme_seo
+#: model_terms:ir.ui.view,arch_db:letme_seo.res_config_settings_view_form
+msgid "404 Not Found URLs"
+msgstr "Các URL lỗi 404"
+
+#. module: letme_seo
+#. odoo-python
+#: code:addons/letme_seo/models/letme_seo_not_found.py:0
+msgid "404: %(path)s"
+msgstr "404: %(path)s"
+
+#. module: letme_seo
+#. odoo-python
+#: code:addons/letme_seo/models/letme_seo_audit.py:0
+msgid ""
+"A local business needs a street, a city and a phone number on the company."
+msgstr "Doanh nghiệp địa phương cần có địa chỉ, tỉnh/thành phố và số điện thoại trên thông tin công ty."
+
+#. module: letme_seo
+#. odoo-python
+#: code:addons/letme_seo/models/letme_seo_audit.py:0
+msgid "A title under %(min)s characters says little about the page."
+msgstr "Tiêu đề dưới %(min)s ký tự nói quá ít về trang."
+
+#. module: letme_seo
+#. odoo-python
+#: code:addons/letme_seo/models/letme_seo_audit.py:0
+msgid "Aim for %(min)s to %(max)s characters."
+msgstr "Nên viết từ %(min)s đến %(max)s ký tự."
+
+#. module: letme_seo
+#: model_terms:ir.ui.view,arch_db:letme_seo.res_config_settings_view_form
+msgid ""
+"Allow Google to show large images of your pages in results and Discover."
+msgstr "Cho phép Google hiển thị ảnh lớn của trang trong kết quả tìm kiếm và Discover."
+
+#. module: letme_seo
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_audit_line_view_form
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_audit_line_view_list
+msgid "Auto-fill Meta"
+msgstr "Tự điền thẻ meta"
+
+#. module: letme_seo
+#: model:ir.model.fields.selection,name:letme_seo.selection__website__letme_business_type__automotivebusiness
+msgid "Automotive Business"
+msgstr "Kinh doanh ô tô, xe máy"
+
+#. module: letme_seo
+#: model_terms:ir.ui.view,arch_db:letme_seo.res_config_settings_view_form
+msgid "Bing"
+msgstr "Bing"
+
+#. module: letme_seo
+#: model:ir.model.fields,field_description:letme_seo.field_res_config_settings__letme_bing_verification
+#: model:ir.model.fields,field_description:letme_seo.field_website__letme_bing_verification
+msgid "Bing Verification Code"
+msgstr "Mã xác minh Bing"
+
+#. module: letme_seo
+#: model_terms:ir.ui.view,arch_db:letme_seo.res_config_settings_view_form
+msgid "Business Information for Google"
+msgstr "Thông tin doanh nghiệp cho Google"
+
+#. module: letme_seo
+#: model:ir.model.fields,field_description:letme_seo.field_res_config_settings__letme_business_type
+#: model:ir.model.fields,field_description:letme_seo.field_website__letme_business_type
+msgid "Business Type"
+msgstr "Loại hình doanh nghiệp"
+
+#. module: letme_seo
+#: model:ir.model.fields.selection,name:letme_seo.selection__letme_seo_audit_line__issue__website_no_address
+msgid "Business address incomplete"
+msgstr "Thiếu địa chỉ doanh nghiệp"
+
+#. module: letme_seo
+#: model:ir.module.module,shortdesc:base.module_letme_seo
+msgid "COHOTECH SEO"
+msgstr "COHOTECH SEO"
+
+#. module: letme_seo
+#: model:ir.model.fields,field_description:letme_seo.field_letme_seo_audit_line__can_autofix
+msgid "Can Autofix"
+msgstr "Tự sửa được"
+
+#. module: letme_seo
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_audit_line_view_search
+msgid "Can Be Auto-filled"
+msgstr "Tự điền được"
+
+#. module: letme_seo
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_not_found_view_list
+msgid "Check Redirects"
+msgstr "Kiểm tra chuyển hướng"
+
+#. module: letme_seo
+#: model_terms:ir.ui.view,arch_db:letme_seo.res_config_settings_view_form
+msgid ""
+"Check titles, descriptions, headings, images and duplicates of every "
+"published page, product and post."
+msgstr "Kiểm tra tiêu đề, mô tả, đề mục, ảnh và nội dung trùng của mọi trang, sản phẩm và bài viết đang đăng."
+
+#. module: letme_seo
+#: model_terms:ir.actions.act_window,help:letme_seo.action_letme_seo_audit_line
+msgid ""
+"Click \"Run Audit\" to check titles, descriptions, headings and images of "
+"every published page, product and post."
+msgstr "Bấm \"Chạy kiểm tra\" để kiểm tra tiêu đề, mô tả, đề mục và ảnh của mọi trang, sản phẩm và bài viết đang đăng."
+
+#. module: letme_seo
+#: model:ir.model.fields.selection,name:letme_seo.selection__website__letme_business_type__computerstore
+msgid "Computer Store"
+msgstr "Cửa hàng máy tính"
+
+#. module: letme_seo
+#: model:ir.model,name:letme_seo.model_res_config_settings
+msgid "Config Settings"
+msgstr "Cấu hình"
+
+#. module: letme_seo
+#: model:ir.model.fields,help:letme_seo.field_res_config_settings__letme_facebook_verification
+#: model:ir.model.fields,help:letme_seo.field_website__letme_facebook_verification
+msgid ""
+"Content of the facebook-domain-verification meta tag (Meta Business Suite)."
+msgstr "Giá trị content của thẻ meta facebook-domain-verification (Meta Business Suite)."
+
+#. module: letme_seo
+#: model:ir.model.fields,help:letme_seo.field_res_config_settings__letme_google_verification
+#: model:ir.model.fields,help:letme_seo.field_website__letme_google_verification
+msgid ""
+"Content of the google-site-verification meta tag given by Google Search "
+"Console."
+msgstr "Giá trị content của thẻ meta google-site-verification do Google Search Console cấp."
+
+#. module: letme_seo
+#: model:ir.model.fields,help:letme_seo.field_res_config_settings__letme_bing_verification
+#: model:ir.model.fields,help:letme_seo.field_website__letme_bing_verification
+msgid "Content of the msvalidate.01 meta tag given by Bing Webmaster Tools."
+msgstr "Giá trị content của thẻ meta msvalidate.01 do Bing Webmaster Tools cấp."
+
+#. module: letme_seo
+#: model:ir.model.fields,help:letme_seo.field_res_config_settings__letme_zalo_verification
+#: model:ir.model.fields,help:letme_seo.field_website__letme_zalo_verification
+msgid "Content of the zalo-platform-site-verification meta tag."
+msgstr "Giá trị content của thẻ meta zalo-platform-site-verification."
+
+#. module: letme_seo
+#. odoo-python
+#: code:addons/letme_seo/models/letme_seo_not_found.py:0
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_not_found_view_form
+msgid "Create Redirect"
+msgstr "Tạo chuyển hướng"
+
+#. module: letme_seo
+#: model:ir.model.fields,field_description:letme_seo.field_letme_seo_audit_line__create_uid
+#: model:ir.model.fields,field_description:letme_seo.field_letme_seo_not_found__create_uid
+msgid "Created by"
+msgstr "Được tạo bởi"
+
+#. module: letme_seo
+#: model:ir.model.fields,field_description:letme_seo.field_letme_seo_audit_line__create_date
+#: model:ir.model.fields,field_description:letme_seo.field_letme_seo_not_found__create_date
+msgid "Created on"
+msgstr "Được tạo vào"
+
+#. module: letme_seo
+#: model:ir.model.fields,field_description:letme_seo.field_letme_seo_audit_line__value
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_audit_line_view_form
+msgid "Current Value"
+msgstr "Giá trị hiện tại"
+
+#. module: letme_seo
+#: model:ir.model.fields,field_description:letme_seo.field_ir_http__display_name
+#: model:ir.model.fields,field_description:letme_seo.field_letme_seo_audit_line__display_name
+#: model:ir.model.fields,field_description:letme_seo.field_letme_seo_not_found__display_name
+#: model:ir.model.fields,field_description:letme_seo.field_res_config_settings__display_name
+#: model:ir.model.fields,field_description:letme_seo.field_website__display_name
+#: model:ir.model.fields,field_description:letme_seo.field_website_rewrite__display_name
+#: model:ir.model.fields,field_description:letme_seo.field_website_structured_data_mixin__display_name
+msgid "Display Name"
+msgstr "Tên hiển thị"
+
+#. module: letme_seo
+#: model:ir.model.fields,field_description:letme_seo.field_letme_seo_audit_line__res_model_name
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_audit_line_view_search
+msgid "Document Type"
+msgstr "Loại tài liệu"
+
+#. module: letme_seo
+#: model:ir.model.fields.selection,name:letme_seo.selection__letme_seo_audit_line__issue__description_duplicate
+msgid "Duplicate meta description"
+msgstr "Mô tả meta bị trùng"
+
+#. module: letme_seo
+#: model:ir.model.fields.selection,name:letme_seo.selection__letme_seo_audit_line__issue__title_duplicate
+msgid "Duplicate title"
+msgstr "Tiêu đề bị trùng"
+
+#. module: letme_seo
+#: model:ir.model.fields.selection,name:letme_seo.selection__website__letme_business_type__electronicsstore
+msgid "Electronics Store"
+msgstr "Cửa hàng điện tử"
+
+#. module: letme_seo
+#: model_terms:ir.actions.act_window,help:letme_seo.action_letme_seo_not_found
+msgid ""
+"Every URL of the website that answers \"page not found\" is listed here, "
+"with the number of visits, so you can redirect it to the right page."
+msgstr "Mọi URL của website trả về \"không tìm thấy trang\" được liệt kê ở đây kèm số lượt truy cập, để bạn chuyển hướng về đúng trang."
+
+#. module: letme_seo
+#: model_terms:ir.ui.view,arch_db:letme_seo.res_config_settings_view_form
+msgid "Facebook"
+msgstr "Facebook"
+
+#. module: letme_seo
+#: model:ir.model.fields,field_description:letme_seo.field_res_config_settings__letme_facebook_verification
+#: model:ir.model.fields,field_description:letme_seo.field_website__letme_facebook_verification
+msgid "Facebook Domain Verification Code"
+msgstr "Mã xác minh tên miền Facebook"
+
+#. module: letme_seo
+#: model:ir.model.fields,field_description:letme_seo.field_letme_seo_not_found__first_seen
+msgid "First Seen"
+msgstr "Gặp lần đầu"
+
+#. module: letme_seo
+#: model:ir.model.fields,help:letme_seo.field_res_config_settings__letme_price_range
+#: model:ir.model.fields,help:letme_seo.field_website__letme_price_range
+msgid "Free text such as $$ or 100.000-5.000.000 VND."
+msgstr "Ghi tự do, ví dụ $$ hoặc 100.000-5.000.000 VND."
+
+#. module: letme_seo
+#. odoo-python
+#: code:addons/letme_seo/models/letme_seo_audit.py:0
+msgid "Give the page one main heading (Heading 1)."
+msgstr "Trang cần một tiêu đề chính (Heading 1)."
+
+#. module: letme_seo
+#: model_terms:ir.ui.view,arch_db:letme_seo.res_config_settings_view_form
+msgid "Google"
+msgstr "Google"
+
+#. module: letme_seo
+#: model:ir.model.fields,field_description:letme_seo.field_res_config_settings__letme_google_verification
+#: model:ir.model.fields,field_description:letme_seo.field_website__letme_google_verification
+msgid "Google Verification Code"
+msgstr "Mã xác minh Google"
+
+#. module: letme_seo
+#: model:ir.model,name:letme_seo.model_ir_http
+msgid "HTTP Routing"
+msgstr "Định tuyến HTTP"
+
+#. module: letme_seo
+#: model:ir.model.fields,field_description:letme_seo.field_letme_seo_not_found__has_redirect
+msgid "Has Redirect"
+msgstr "Đã có chuyển hướng"
+
+#. module: letme_seo
+#: model:ir.model.fields.selection,name:letme_seo.selection__letme_seo_audit_line__issue__not_indexed
+msgid "Hidden from search engines"
+msgstr "Đang ẩn với công cụ tìm kiếm"
+
+#. module: letme_seo
+#: model:ir.model.fields,help:letme_seo.field_letme_seo_not_found__ignored
+msgid "Hide this URL from the list without creating a redirect."
+msgstr "Ẩn URL này khỏi danh sách mà không tạo chuyển hướng."
+
+#. module: letme_seo
+#: model:ir.model.fields.selection,name:letme_seo.selection__letme_seo_audit_line__severity__high
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_audit_line_view_search
+msgid "High"
+msgstr "Cao"
+
+#. module: letme_seo
+#: model:ir.model.fields,field_description:letme_seo.field_letme_seo_not_found__hits
+msgid "Hits"
+msgstr "Lượt truy cập"
+
+#. module: letme_seo
+#: model:ir.model.fields.selection,name:letme_seo.selection__website__letme_business_type__homeandconstructionbusiness
+msgid "Home and Construction Business"
+msgstr "Nhà ở và xây dựng"
+
+#. module: letme_seo
+#: model:ir.model.fields,field_description:letme_seo.field_ir_http__id
+#: model:ir.model.fields,field_description:letme_seo.field_letme_seo_audit_line__id
+#: model:ir.model.fields,field_description:letme_seo.field_letme_seo_not_found__id
+#: model:ir.model.fields,field_description:letme_seo.field_res_config_settings__id
+#: model:ir.model.fields,field_description:letme_seo.field_website__id
+#: model:ir.model.fields,field_description:letme_seo.field_website_rewrite__id
+#: model:ir.model.fields,field_description:letme_seo.field_website_structured_data_mixin__id
+msgid "ID"
+msgstr "ID"
+
+#. module: letme_seo
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_not_found_view_form
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_not_found_view_list
+msgid "Ignore"
+msgstr "Bỏ qua"
+
+#. module: letme_seo
+#: model:ir.model.fields,field_description:letme_seo.field_letme_seo_not_found__ignored
+#: model:ir.model.fields.selection,name:letme_seo.selection__letme_seo_not_found__state__ignored
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_not_found_view_search
+msgid "Ignored"
+msgstr "Đã bỏ qua"
+
+#. module: letme_seo
+#: model:ir.model.fields.selection,name:letme_seo.selection__letme_seo_audit_line__issue__image_missing_alt
+msgid "Images without alt text"
+msgstr "Ảnh thiếu văn bản thay thế"
+
+#. module: letme_seo
+#: model:ir.model.fields,field_description:letme_seo.field_letme_seo_audit_line__issue
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_audit_line_view_search
+msgid "Issue"
+msgstr "Lỗi"
+
+#. module: letme_seo
+#. odoo-python
+#: code:addons/letme_seo/models/letme_seo_audit.py:0
+msgid "Keep a single Heading 1 per page and use Heading 2 for sections."
+msgstr "Mỗi trang chỉ nên có một Heading 1, các mục con dùng Heading 2."
+
+#. module: letme_seo
+#: model:ir.model.fields,field_description:letme_seo.field_res_config_settings__letme_max_image_preview
+#: model:ir.model.fields,field_description:letme_seo.field_website__letme_max_image_preview
+msgid "Large Image Previews"
+msgstr "Xem trước ảnh lớn"
+
+#. module: letme_seo
+#: model:ir.model.fields,field_description:letme_seo.field_letme_seo_not_found__last_referrer
+msgid "Last Referrer"
+msgstr "Trang dẫn tới gần nhất"
+
+#. module: letme_seo
+#: model:ir.model.fields,field_description:letme_seo.field_letme_seo_not_found__last_seen
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_not_found_view_search
+msgid "Last Seen"
+msgstr "Gặp gần nhất"
+
+#. module: letme_seo
+#: model:ir.model.fields,field_description:letme_seo.field_letme_seo_audit_line__write_uid
+#: model:ir.model.fields,field_description:letme_seo.field_letme_seo_not_found__write_uid
+msgid "Last Updated by"
+msgstr "Cập nhật lần cuối bởi"
+
+#. module: letme_seo
+#: model:ir.model.fields,field_description:letme_seo.field_letme_seo_audit_line__write_date
+#: model:ir.model.fields,field_description:letme_seo.field_letme_seo_not_found__write_date
+msgid "Last Updated on"
+msgstr "Cập nhật lần cuối vào"
+
+#. module: letme_seo
+#: model:ir.model.fields,field_description:letme_seo.field_letme_seo_not_found__last_user_agent
+msgid "Last User Agent"
+msgstr "Trình duyệt gần nhất"
+
+#. module: letme_seo
+#: model:ir.model.fields,field_description:letme_seo.field_letme_seo_audit_line__length
+msgid "Length"
+msgstr "Độ dài"
+
+#. module: letme_seo
+#: model:ir.model.fields,help:letme_seo.field_res_config_settings__letme_max_image_preview
+#: model:ir.model.fields,help:letme_seo.field_website__letme_max_image_preview
+msgid ""
+"Let Google show large image previews (robots max-image-preview:large) on "
+"indexable pages."
+msgstr "Cho Google hiển thị ảnh xem trước cỡ lớn (robots max-image-preview:large) trên các trang được lập chỉ mục."
+
+#. module: letme_seo
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_not_found_view_search
+msgid "Linked From Another Page"
+msgstr "Có trang khác dẫn tới"
+
+#. module: letme_seo
+#: model:ir.model.fields.selection,name:letme_seo.selection__website__letme_business_type__localbusiness
+msgid "Local Business"
+msgstr "Doanh nghiệp địa phương"
+
+#. module: letme_seo
+#: model:ir.model.fields.selection,name:letme_seo.selection__letme_seo_audit_line__severity__low
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_audit_line_view_search
+msgid "Low"
+msgstr "Thấp"
+
+#. module: letme_seo
+#: model:ir.model.fields.selection,name:letme_seo.selection__letme_seo_audit_line__severity__medium
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_audit_line_view_search
+msgid "Medium"
+msgstr "Trung bình"
+
+#. module: letme_seo
+#: model:ir.model.fields,field_description:letme_seo.field_letme_seo_audit_line__message
+msgid "Message"
+msgstr "Thông báo"
+
+#. module: letme_seo
+#: model:ir.model.fields.selection,name:letme_seo.selection__letme_seo_audit_line__issue__description_too_long
+msgid "Meta description too long"
+msgstr "Mô tả meta quá dài"
+
+#. module: letme_seo
+#: model:ir.model.fields.selection,name:letme_seo.selection__letme_seo_audit_line__issue__description_too_short
+msgid "Meta description too short"
+msgstr "Mô tả meta quá ngắn"
+
+#. module: letme_seo
+#: model_terms:ir.ui.view,arch_db:letme_seo.res_config_settings_view_form
+msgid ""
+"Meta tags asked by webmaster tools to prove you own the site. Paste only the"
+" content value."
+msgstr "Thẻ meta mà các công cụ quản trị web yêu cầu để xác minh bạn sở hữu website. Chỉ dán phần giá trị content."
+
+#. module: letme_seo
+#: model:ir.model.fields.selection,name:letme_seo.selection__letme_seo_audit_line__issue__description_missing
+msgid "Missing meta description"
+msgstr "Thiếu mô tả meta"
+
+#. module: letme_seo
+#: model_terms:ir.ui.view,arch_db:letme_seo.res_config_settings_view_form
+msgid "Mo-Sa 08:00-20:00, Su 08:00-12:00"
+msgstr "Mo-Sa 08:00-20:00, Su 08:00-12:00"
+
+#. module: letme_seo
+#: model:ir.model.fields.selection,name:letme_seo.selection__website__letme_business_type__mobilephonestore
+msgid "Mobile Phone Store"
+msgstr "Cửa hàng điện thoại"
+
+#. module: letme_seo
+#: model:ir.model.fields,field_description:letme_seo.field_letme_seo_audit_line__res_model
+msgid "Model"
+msgstr "Model"
+
+#. module: letme_seo
+#. odoo-python
+#: code:addons/letme_seo/models/letme_seo_audit.py:0
+msgid "No Google Analytics or Plausible tracking is set."
+msgstr "Chưa cài Google Analytics hoặc Plausible."
+
+#. module: letme_seo
+#: model:ir.model.fields.selection,name:letme_seo.selection__letme_seo_audit_line__issue__h1_missing
+msgid "No H1 heading"
+msgstr "Không có Heading 1"
+
+#. module: letme_seo
+#: model_terms:ir.actions.act_window,help:letme_seo.action_letme_seo_audit_line
+msgid "No SEO issue found"
+msgstr "Không có lỗi SEO nào"
+
+#. module: letme_seo
+#: model:ir.model.fields.selection,name:letme_seo.selection__letme_seo_audit_line__issue__website_no_analytics
+msgid "No analytics"
+msgstr "Chưa có công cụ thống kê"
+
+#. module: letme_seo
+#: model_terms:ir.actions.act_window,help:letme_seo.action_letme_seo_not_found
+msgid "No broken URL yet"
+msgstr "Chưa có URL lỗi nào"
+
+#. module: letme_seo
+#: model:ir.model.fields.selection,name:letme_seo.selection__letme_seo_audit_line__issue__website_no_social_image
+msgid "No default social image"
+msgstr "Chưa có ảnh chia sẻ mặc định"
+
+#. module: letme_seo
+#. odoo-python
+#: code:addons/letme_seo/models/letme_seo_audit.py:0
+msgid ""
+"No default social share image: links shared on Facebook or Zalo show the "
+"logo instead."
+msgstr "Chưa có ảnh chia sẻ mạng xã hội mặc định: link chia sẻ lên Facebook hoặc Zalo sẽ hiện logo."
+
+#. module: letme_seo
+#. odoo-python
+#: code:addons/letme_seo/models/letme_seo_audit.py:0
+msgid ""
+"Nothing could be filled automatically: the records have no text to use."
+msgstr "Không tự điền được: các bản ghi này không có nội dung để dùng."
+
+#. module: letme_seo
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_audit_line_view_form
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_audit_line_view_list
+msgid "Open Record"
+msgstr "Mở bản ghi"
+
+#. module: letme_seo
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_not_found_view_list
+msgid "Open Redirect"
+msgstr "Mở chuyển hướng"
+
+#. module: letme_seo
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_audit_line_view_form
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_audit_line_view_list
+msgid "Open on Website"
+msgstr "Mở trên website"
+
+#. module: letme_seo
+#: model:ir.model.fields,field_description:letme_seo.field_res_config_settings__letme_opening_hours
+#: model:ir.model.fields,field_description:letme_seo.field_website__letme_opening_hours
+#: model_terms:ir.ui.view,arch_db:letme_seo.res_config_settings_view_form
+msgid "Opening Hours"
+msgstr "Giờ mở cửa"
+
+#. module: letme_seo
+#: model:ir.model.fields.selection,name:letme_seo.selection__website__letme_business_type__organization
+msgid "Organization"
+msgstr "Tổ chức"
+
+#. module: letme_seo
+#: model:ir.model.fields,field_description:letme_seo.field_letme_seo_audit_line__record_name
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_audit_line_view_search
+msgid "Page"
+msgstr "Trang"
+
+#. module: letme_seo
+#: model:ir.model.fields,help:letme_seo.field_letme_seo_not_found__last_referrer
+msgid "Page that linked to this URL the last time it was hit."
+msgstr "Trang đã dẫn tới URL này ở lượt truy cập gần nhất."
+
+#. module: letme_seo
+#: model:ir.model.fields,field_description:letme_seo.field_letme_seo_not_found__path
+msgid "Path"
+msgstr "Đường dẫn"
+
+#. module: letme_seo
+#: model:ir.model.fields,field_description:letme_seo.field_res_config_settings__letme_price_range
+#: model:ir.model.fields,field_description:letme_seo.field_website__letme_price_range
+#: model_terms:ir.ui.view,arch_db:letme_seo.res_config_settings_view_form
+msgid "Price Range"
+msgstr "Khoảng giá"
+
+#. module: letme_seo
+#: model:ir.model.fields.selection,name:letme_seo.selection__website__letme_business_type__professionalservice
+msgid "Professional Service"
+msgstr "Dịch vụ chuyên nghiệp"
+
+#. module: letme_seo
+#: model:ir.model.fields,field_description:letme_seo.field_letme_seo_audit_line__res_id
+msgid "Record ID"
+msgstr "ID bản ghi"
+
+#. module: letme_seo
+#: model:ir.model.fields,field_description:letme_seo.field_letme_seo_not_found__redirect_id
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_not_found_view_list
+msgid "Redirect"
+msgstr "Chuyển hướng"
+
+#. module: letme_seo
+#: model:ir.model.fields.selection,name:letme_seo.selection__letme_seo_not_found__state__redirected
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_not_found_view_search
+msgid "Redirected"
+msgstr "Đã chuyển hướng"
+
+#. module: letme_seo
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_not_found_view_form
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_not_found_view_list
+msgid "Reopen"
+msgstr "Mở lại"
+
+#. module: letme_seo
+#: model:ir.model.fields.selection,name:letme_seo.selection__website__letme_business_type__restaurant
+msgid "Restaurant"
+msgstr "Nhà hàng"
+
+#. module: letme_seo
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_audit_line_view_list
+msgid "Run Audit"
+msgstr "Chạy kiểm tra"
+
+#. module: letme_seo
+#: model_terms:ir.ui.view,arch_db:letme_seo.res_config_settings_view_form
+msgid "Run SEO Audit"
+msgstr "Chạy kiểm tra SEO"
+
+#. module: letme_seo
+#: model:ir.ui.menu,name:letme_seo.menu_letme_seo
+msgid "SEO"
+msgstr "SEO"
+
+#. module: letme_seo
+#: model:ir.actions.act_window,name:letme_seo.action_letme_seo_audit_line
+#: model:ir.ui.menu,name:letme_seo.menu_letme_seo_audit
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_audit_line_view_graph
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_audit_line_view_list
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_audit_line_view_pivot
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_audit_line_view_search
+#: model_terms:ir.ui.view,arch_db:letme_seo.res_config_settings_view_form
+msgid "SEO Audit"
+msgstr "Kiểm tra SEO"
+
+#. module: letme_seo
+#: model:ir.model,name:letme_seo.model_letme_seo_audit_line
+msgid "SEO Audit Issue"
+msgstr "Lỗi kiểm tra SEO"
+
+#. module: letme_seo
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_audit_line_view_form
+msgid "SEO Issue"
+msgstr "Lỗi SEO"
+
+#. module: letme_seo
+#: model:ir.module.module,summary:base.module_letme_seo
+msgid ""
+"SEO audit, 404 log with one-click redirects, business schema, verification "
+"tags"
+msgstr "Kiểm tra SEO, nhật ký lỗi 404 kèm chuyển hướng một chạm, dữ liệu doanh nghiệp, thẻ xác minh"
+
+#. module: letme_seo
+#: model:ir.actions.server,name:letme_seo.ir_cron_letme_seo_audit_ir_actions_server
+msgid "SEO: audit websites"
+msgstr "SEO: kiểm tra website"
+
+#. module: letme_seo
+#: model:ir.actions.server,name:letme_seo.ir_cron_letme_seo_not_found_sync_ir_actions_server
+msgid "SEO: match 404 URLs with redirects"
+msgstr "SEO: đối chiếu URL lỗi 404 với chuyển hướng"
+
+#. module: letme_seo
+#. odoo-python
+#: code:addons/letme_seo/models/letme_seo_audit.py:0
+msgid "Same text as: %(others)s"
+msgstr "Trùng nội dung với: %(others)s"
+
+#. module: letme_seo
+#: model:ir.model.fields,help:letme_seo.field_res_config_settings__letme_opening_hours
+#: model:ir.model.fields,help:letme_seo.field_website__letme_opening_hours
+msgid ""
+"Schema.org format, separated by commas. Example: Mo-Sa 08:00-20:00, Su "
+"08:00-12:00"
+msgstr "Định dạng Schema.org, cách nhau bởi dấu phẩy. Ví dụ: Mo-Sa 08:00-20:00, Su 08:00-12:00"
+
+#. module: letme_seo
+#: model:ir.model.fields,help:letme_seo.field_res_config_settings__letme_business_type
+#: model:ir.model.fields,help:letme_seo.field_website__letme_business_type
+msgid "Schema.org type of the business shown to search engines on every page."
+msgstr "Loại hình doanh nghiệp theo Schema.org, gửi cho công cụ tìm kiếm trên mọi trang."
+
+#. module: letme_seo
+#: model_terms:ir.ui.view,arch_db:letme_seo.res_config_settings_view_form
+msgid "Search Engine Verification"
+msgstr "Xác minh công cụ tìm kiếm"
+
+#. module: letme_seo
+#: model:ir.model.fields.selection,name:letme_seo.selection__letme_seo_audit_line__issue__website_no_search_console
+msgid "Search engine not verified"
+msgstr "Chưa xác minh với công cụ tìm kiếm"
+
+#. module: letme_seo
+#. odoo-python
+#: code:addons/letme_seo/models/letme_seo_audit.py:0
+msgid "Search engines cut descriptions after about %(max)s characters."
+msgstr "Công cụ tìm kiếm cắt mô tả sau khoảng %(max)s ký tự."
+
+#. module: letme_seo
+#. odoo-python
+#: code:addons/letme_seo/models/letme_seo_audit.py:0
+msgid "Search engines cut titles after about %(max)s characters."
+msgstr "Công cụ tìm kiếm cắt tiêu đề sau khoảng %(max)s ký tự."
+
+#. module: letme_seo
+#. odoo-python
+#: code:addons/letme_seo/models/letme_seo_audit.py:0
+msgid ""
+"Set the website domain (https://...) so canonical URLs, hreflang and the "
+"sitemap always use it."
+msgstr "Hãy đặt tên miền website (https://...) để URL chuẩn (canonical), hreflang và sitemap luôn dùng đúng tên miền."
+
+#. module: letme_seo
+#: model:ir.model.fields,help:letme_seo.field_letme_seo_not_found__has_redirect
+msgid "Set when a redirect from this URL exists."
+msgstr "Bật khi đã có chuyển hướng từ URL này."
+
+#. module: letme_seo
+#: model:ir.model.fields.selection,name:letme_seo.selection__letme_seo_audit_line__issue__h1_multiple
+msgid "Several H1 headings"
+msgstr "Nhiều Heading 1"
+
+#. module: letme_seo
+#: model:ir.model.fields,field_description:letme_seo.field_letme_seo_audit_line__severity
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_audit_line_view_search
+msgid "Severity"
+msgstr "Mức độ"
+
+#. module: letme_seo
+#: model:ir.model.fields,field_description:letme_seo.field_letme_seo_audit_line__severity_order
+msgid "Severity Order"
+msgstr "Thứ tự mức độ"
+
+#. module: letme_seo
+#: model:ir.model.fields,field_description:letme_seo.field_letme_seo_not_found__state
+msgid "State"
+msgstr "Trạng thái"
+
+#. module: letme_seo
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_not_found_view_search
+msgid "Status"
+msgstr "Trạng thái"
+
+#. module: letme_seo
+#: model:ir.model.fields.selection,name:letme_seo.selection__website__letme_business_type__store
+msgid "Store"
+msgstr "Cửa hàng"
+
+#. module: letme_seo
+#: model_terms:ir.ui.view,arch_db:letme_seo.res_config_settings_view_form
+msgid ""
+"Structured data on every page: business type, phone, address and social "
+"accounts of the company."
+msgstr "Dữ liệu có cấu trúc trên mọi trang: loại hình, điện thoại, địa chỉ và mạng xã hội của công ty."
+
+#. module: letme_seo
+#. odoo-python
+#: code:addons/letme_seo/models/letme_seo_audit.py:0
+msgid "The page is published but asks search engines not to index it."
+msgstr "Trang đang đăng nhưng yêu cầu công cụ tìm kiếm không lập chỉ mục."
+
+#. module: letme_seo
+#: model:ir.model.constraint,message:letme_seo.constraint_letme_seo_not_found_website_path_uniq
+msgid "This URL is already logged for this website."
+msgstr "URL này đã được ghi nhận cho website này."
+
+#. module: letme_seo
+#: model:ir.model.fields.selection,name:letme_seo.selection__letme_seo_audit_line__issue__title_too_long
+msgid "Title too long"
+msgstr "Tiêu đề quá dài"
+
+#. module: letme_seo
+#: model:ir.model.fields.selection,name:letme_seo.selection__letme_seo_audit_line__issue__title_too_short
+msgid "Title too short"
+msgstr "Tiêu đề quá ngắn"
+
+#. module: letme_seo
+#: model:ir.model.fields.selection,name:letme_seo.selection__letme_seo_not_found__state__open
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_not_found_view_search
+msgid "To Fix"
+msgstr "Cần sửa"
+
+#. module: letme_seo
+#: model_terms:ir.ui.view,arch_db:letme_seo.res_config_settings_view_form
+msgid "Type"
+msgstr "Loại"
+
+#. module: letme_seo
+#: model:ir.model.fields,field_description:letme_seo.field_letme_seo_audit_line__url
+msgid "URL"
+msgstr "URL"
+
+#. module: letme_seo
+#. odoo-python
+#: code:addons/letme_seo/models/letme_seo_audit.py:0
+msgid ""
+"Verify the site in Google Search Console or Bing Webmaster Tools to follow "
+"indexing."
+msgstr "Hãy xác minh website trên Google Search Console hoặc Bing Webmaster Tools để theo dõi việc lập chỉ mục."
+
+#. module: letme_seo
+#: model:ir.model,name:letme_seo.model_website
+#: model:ir.model.fields,field_description:letme_seo.field_letme_seo_audit_line__website_id
+#: model:ir.model.fields,field_description:letme_seo.field_letme_seo_not_found__website_id
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_audit_line_view_search
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_not_found_view_search
+msgid "Website"
+msgstr "Website"
+
+#. module: letme_seo
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_audit_line_view_search
+msgid "Website Settings"
+msgstr "Cài đặt website"
+
+#. module: letme_seo
+#: model:ir.model,name:letme_seo.model_website_structured_data_mixin
+msgid "Website Structured Data Mixin"
+msgstr "Website Structured Data Mixin"
+
+#. module: letme_seo
+#: model:ir.model.fields.selection,name:letme_seo.selection__letme_seo_audit_line__issue__website_no_domain
+msgid "Website domain not set"
+msgstr "Chưa đặt tên miền website"
+
+#. module: letme_seo
+#: model:ir.model,name:letme_seo.model_website_rewrite
+msgid "Website rewrite"
+msgstr "Chuyển hướng website"
+
+#. module: letme_seo
+#. odoo-python
+#: code:addons/letme_seo/models/letme_seo_audit.py:0
+msgid ""
+"Without a description, search engines pick a random sentence of the page."
+msgstr "Không có mô tả, công cụ tìm kiếm sẽ tự lấy một câu bất kỳ trong trang."
+
+#. module: letme_seo
+#: model_terms:ir.ui.view,arch_db:letme_seo.res_config_settings_view_form
+msgid "Yandex"
+msgstr "Yandex"
+
+#. module: letme_seo
+#: model:ir.model.fields,field_description:letme_seo.field_res_config_settings__letme_yandex_verification
+#: model:ir.model.fields,field_description:letme_seo.field_website__letme_yandex_verification
+msgid "Yandex Verification Code"
+msgstr "Mã xác minh Yandex"
+
+#. module: letme_seo
+#: model_terms:ir.ui.view,arch_db:letme_seo.res_config_settings_view_form
+msgid "Zalo"
+msgstr "Zalo"
+
+#. module: letme_seo
+#: model:ir.model.fields,field_description:letme_seo.field_res_config_settings__letme_zalo_verification
+#: model:ir.model.fields,field_description:letme_seo.field_website__letme_zalo_verification
+msgid "Zalo Verification Code"
+msgstr "Mã xác minh Zalo"
+
+#. module: letme_seo
+#: model_terms:ir.ui.view,arch_db:letme_seo.res_config_settings_view_form
+msgid "google-site-verification content"
+msgstr "giá trị content của google-site-verification"
+
+#. module: letme_seo
+#: model_terms:ir.ui.view,arch_db:letme_seo.res_config_settings_view_form
+msgid "msvalidate.01 content"
+msgstr "giá trị content của msvalidate.01"

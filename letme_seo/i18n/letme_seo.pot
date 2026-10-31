@@ -1,0 +1,868 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* letme_seo
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 20.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-31 17:14+0000\n"
+"PO-Revision-Date: 2026-10-31 17:14+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: letme_seo
+#. odoo-python
+#: code:addons/letme_seo/models/letme_seo_audit.py:0
+msgid "%(count)s image(s) have no alt text describing them."
+msgstr ""
+
+#. module: letme_seo
+#. odoo-python
+#: code:addons/letme_seo/models/letme_seo_audit.py:0
+msgid "%(count)s issue(s) fixed."
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.actions.act_window,name:letme_seo.action_letme_seo_not_found
+#: model:ir.ui.menu,name:letme_seo.menu_letme_seo_not_found
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_not_found_view_form
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_not_found_view_list
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_not_found_view_search
+msgid "404 Not Found"
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model,name:letme_seo.model_letme_seo_not_found
+msgid "404 Not Found URL"
+msgstr ""
+
+#. module: letme_seo
+#: model_terms:ir.ui.view,arch_db:letme_seo.res_config_settings_view_form
+msgid "404 Not Found URLs"
+msgstr ""
+
+#. module: letme_seo
+#. odoo-python
+#: code:addons/letme_seo/models/letme_seo_not_found.py:0
+msgid "404: %(path)s"
+msgstr ""
+
+#. module: letme_seo
+#. odoo-python
+#: code:addons/letme_seo/models/letme_seo_audit.py:0
+msgid ""
+"A local business needs a street, a city and a phone number on the company."
+msgstr ""
+
+#. module: letme_seo
+#. odoo-python
+#: code:addons/letme_seo/models/letme_seo_audit.py:0
+msgid "A title under %(min)s characters says little about the page."
+msgstr ""
+
+#. module: letme_seo
+#. odoo-python
+#: code:addons/letme_seo/models/letme_seo_audit.py:0
+msgid "Aim for %(min)s to %(max)s characters."
+msgstr ""
+
+#. module: letme_seo
+#: model_terms:ir.ui.view,arch_db:letme_seo.res_config_settings_view_form
+msgid ""
+"Allow Google to show large images of your pages in results and Discover."
+msgstr ""
+
+#. module: letme_seo
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_audit_line_view_form
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_audit_line_view_list
+msgid "Auto-fill Meta"
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.fields.selection,name:letme_seo.selection__website__letme_business_type__automotivebusiness
+msgid "Automotive Business"
+msgstr ""
+
+#. module: letme_seo
+#: model_terms:ir.ui.view,arch_db:letme_seo.res_config_settings_view_form
+msgid "Bing"
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.fields,field_description:letme_seo.field_res_config_settings__letme_bing_verification
+#: model:ir.model.fields,field_description:letme_seo.field_website__letme_bing_verification
+msgid "Bing Verification Code"
+msgstr ""
+
+#. module: letme_seo
+#: model_terms:ir.ui.view,arch_db:letme_seo.res_config_settings_view_form
+msgid "Business Information for Google"
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.fields,field_description:letme_seo.field_res_config_settings__letme_business_type
+#: model:ir.model.fields,field_description:letme_seo.field_website__letme_business_type
+msgid "Business Type"
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.fields.selection,name:letme_seo.selection__letme_seo_audit_line__issue__website_no_address
+msgid "Business address incomplete"
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.module.module,shortdesc:base.module_letme_seo
+msgid "COHOTECH SEO"
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.fields,field_description:letme_seo.field_letme_seo_audit_line__can_autofix
+msgid "Can Autofix"
+msgstr ""
+
+#. module: letme_seo
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_audit_line_view_search
+msgid "Can Be Auto-filled"
+msgstr ""
+
+#. module: letme_seo
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_not_found_view_list
+msgid "Check Redirects"
+msgstr ""
+
+#. module: letme_seo
+#: model_terms:ir.ui.view,arch_db:letme_seo.res_config_settings_view_form
+msgid ""
+"Check titles, descriptions, headings, images and duplicates of every "
+"published page, product and post."
+msgstr ""
+
+#. module: letme_seo
+#: model_terms:ir.actions.act_window,help:letme_seo.action_letme_seo_audit_line
+msgid ""
+"Click \"Run Audit\" to check titles, descriptions, headings and images of "
+"every published page, product and post."
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.fields.selection,name:letme_seo.selection__website__letme_business_type__computerstore
+msgid "Computer Store"
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model,name:letme_seo.model_res_config_settings
+msgid "Config Settings"
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.fields,help:letme_seo.field_res_config_settings__letme_facebook_verification
+#: model:ir.model.fields,help:letme_seo.field_website__letme_facebook_verification
+msgid ""
+"Content of the facebook-domain-verification meta tag (Meta Business Suite)."
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.fields,help:letme_seo.field_res_config_settings__letme_google_verification
+#: model:ir.model.fields,help:letme_seo.field_website__letme_google_verification
+msgid ""
+"Content of the google-site-verification meta tag given by Google Search "
+"Console."
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.fields,help:letme_seo.field_res_config_settings__letme_bing_verification
+#: model:ir.model.fields,help:letme_seo.field_website__letme_bing_verification
+msgid "Content of the msvalidate.01 meta tag given by Bing Webmaster Tools."
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.fields,help:letme_seo.field_res_config_settings__letme_zalo_verification
+#: model:ir.model.fields,help:letme_seo.field_website__letme_zalo_verification
+msgid "Content of the zalo-platform-site-verification meta tag."
+msgstr ""
+
+#. module: letme_seo
+#. odoo-python
+#: code:addons/letme_seo/models/letme_seo_not_found.py:0
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_not_found_view_form
+msgid "Create Redirect"
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.fields,field_description:letme_seo.field_letme_seo_audit_line__create_uid
+#: model:ir.model.fields,field_description:letme_seo.field_letme_seo_not_found__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.fields,field_description:letme_seo.field_letme_seo_audit_line__create_date
+#: model:ir.model.fields,field_description:letme_seo.field_letme_seo_not_found__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.fields,field_description:letme_seo.field_letme_seo_audit_line__value
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_audit_line_view_form
+msgid "Current Value"
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.fields,field_description:letme_seo.field_ir_http__display_name
+#: model:ir.model.fields,field_description:letme_seo.field_letme_seo_audit_line__display_name
+#: model:ir.model.fields,field_description:letme_seo.field_letme_seo_not_found__display_name
+#: model:ir.model.fields,field_description:letme_seo.field_res_config_settings__display_name
+#: model:ir.model.fields,field_description:letme_seo.field_website__display_name
+#: model:ir.model.fields,field_description:letme_seo.field_website_rewrite__display_name
+#: model:ir.model.fields,field_description:letme_seo.field_website_structured_data_mixin__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.fields,field_description:letme_seo.field_letme_seo_audit_line__res_model_name
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_audit_line_view_search
+msgid "Document Type"
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.fields.selection,name:letme_seo.selection__letme_seo_audit_line__issue__description_duplicate
+msgid "Duplicate meta description"
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.fields.selection,name:letme_seo.selection__letme_seo_audit_line__issue__title_duplicate
+msgid "Duplicate title"
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.fields.selection,name:letme_seo.selection__website__letme_business_type__electronicsstore
+msgid "Electronics Store"
+msgstr ""
+
+#. module: letme_seo
+#: model_terms:ir.actions.act_window,help:letme_seo.action_letme_seo_not_found
+msgid ""
+"Every URL of the website that answers \"page not found\" is listed here, "
+"with the number of visits, so you can redirect it to the right page."
+msgstr ""
+
+#. module: letme_seo
+#: model_terms:ir.ui.view,arch_db:letme_seo.res_config_settings_view_form
+msgid "Facebook"
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.fields,field_description:letme_seo.field_res_config_settings__letme_facebook_verification
+#: model:ir.model.fields,field_description:letme_seo.field_website__letme_facebook_verification
+msgid "Facebook Domain Verification Code"
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.fields,field_description:letme_seo.field_letme_seo_not_found__first_seen
+msgid "First Seen"
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.fields,help:letme_seo.field_res_config_settings__letme_price_range
+#: model:ir.model.fields,help:letme_seo.field_website__letme_price_range
+msgid "Free text such as $$ or 100.000-5.000.000 VND."
+msgstr ""
+
+#. module: letme_seo
+#. odoo-python
+#: code:addons/letme_seo/models/letme_seo_audit.py:0
+msgid "Give the page one main heading (Heading 1)."
+msgstr ""
+
+#. module: letme_seo
+#: model_terms:ir.ui.view,arch_db:letme_seo.res_config_settings_view_form
+msgid "Google"
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.fields,field_description:letme_seo.field_res_config_settings__letme_google_verification
+#: model:ir.model.fields,field_description:letme_seo.field_website__letme_google_verification
+msgid "Google Verification Code"
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model,name:letme_seo.model_ir_http
+msgid "HTTP Routing"
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.fields,field_description:letme_seo.field_letme_seo_not_found__has_redirect
+msgid "Has Redirect"
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.fields.selection,name:letme_seo.selection__letme_seo_audit_line__issue__not_indexed
+msgid "Hidden from search engines"
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.fields,help:letme_seo.field_letme_seo_not_found__ignored
+msgid "Hide this URL from the list without creating a redirect."
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.fields.selection,name:letme_seo.selection__letme_seo_audit_line__severity__high
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_audit_line_view_search
+msgid "High"
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.fields,field_description:letme_seo.field_letme_seo_not_found__hits
+msgid "Hits"
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.fields.selection,name:letme_seo.selection__website__letme_business_type__homeandconstructionbusiness
+msgid "Home and Construction Business"
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.fields,field_description:letme_seo.field_ir_http__id
+#: model:ir.model.fields,field_description:letme_seo.field_letme_seo_audit_line__id
+#: model:ir.model.fields,field_description:letme_seo.field_letme_seo_not_found__id
+#: model:ir.model.fields,field_description:letme_seo.field_res_config_settings__id
+#: model:ir.model.fields,field_description:letme_seo.field_website__id
+#: model:ir.model.fields,field_description:letme_seo.field_website_rewrite__id
+#: model:ir.model.fields,field_description:letme_seo.field_website_structured_data_mixin__id
+msgid "ID"
+msgstr ""
+
+#. module: letme_seo
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_not_found_view_form
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_not_found_view_list
+msgid "Ignore"
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.fields,field_description:letme_seo.field_letme_seo_not_found__ignored
+#: model:ir.model.fields.selection,name:letme_seo.selection__letme_seo_not_found__state__ignored
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_not_found_view_search
+msgid "Ignored"
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.fields.selection,name:letme_seo.selection__letme_seo_audit_line__issue__image_missing_alt
+msgid "Images without alt text"
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.fields,field_description:letme_seo.field_letme_seo_audit_line__issue
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_audit_line_view_search
+msgid "Issue"
+msgstr ""
+
+#. module: letme_seo
+#. odoo-python
+#: code:addons/letme_seo/models/letme_seo_audit.py:0
+msgid "Keep a single Heading 1 per page and use Heading 2 for sections."
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.fields,field_description:letme_seo.field_res_config_settings__letme_max_image_preview
+#: model:ir.model.fields,field_description:letme_seo.field_website__letme_max_image_preview
+msgid "Large Image Previews"
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.fields,field_description:letme_seo.field_letme_seo_not_found__last_referrer
+msgid "Last Referrer"
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.fields,field_description:letme_seo.field_letme_seo_not_found__last_seen
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_not_found_view_search
+msgid "Last Seen"
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.fields,field_description:letme_seo.field_letme_seo_audit_line__write_uid
+#: model:ir.model.fields,field_description:letme_seo.field_letme_seo_not_found__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.fields,field_description:letme_seo.field_letme_seo_audit_line__write_date
+#: model:ir.model.fields,field_description:letme_seo.field_letme_seo_not_found__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.fields,field_description:letme_seo.field_letme_seo_not_found__last_user_agent
+msgid "Last User Agent"
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.fields,field_description:letme_seo.field_letme_seo_audit_line__length
+msgid "Length"
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.fields,help:letme_seo.field_res_config_settings__letme_max_image_preview
+#: model:ir.model.fields,help:letme_seo.field_website__letme_max_image_preview
+msgid ""
+"Let Google show large image previews (robots max-image-preview:large) on "
+"indexable pages."
+msgstr ""
+
+#. module: letme_seo
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_not_found_view_search
+msgid "Linked From Another Page"
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.fields.selection,name:letme_seo.selection__website__letme_business_type__localbusiness
+msgid "Local Business"
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.fields.selection,name:letme_seo.selection__letme_seo_audit_line__severity__low
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_audit_line_view_search
+msgid "Low"
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.fields.selection,name:letme_seo.selection__letme_seo_audit_line__severity__medium
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_audit_line_view_search
+msgid "Medium"
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.fields,field_description:letme_seo.field_letme_seo_audit_line__message
+msgid "Message"
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.fields.selection,name:letme_seo.selection__letme_seo_audit_line__issue__description_too_long
+msgid "Meta description too long"
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.fields.selection,name:letme_seo.selection__letme_seo_audit_line__issue__description_too_short
+msgid "Meta description too short"
+msgstr ""
+
+#. module: letme_seo
+#: model_terms:ir.ui.view,arch_db:letme_seo.res_config_settings_view_form
+msgid ""
+"Meta tags asked by webmaster tools to prove you own the site. Paste only the"
+" content value."
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.fields.selection,name:letme_seo.selection__letme_seo_audit_line__issue__description_missing
+msgid "Missing meta description"
+msgstr ""
+
+#. module: letme_seo
+#: model_terms:ir.ui.view,arch_db:letme_seo.res_config_settings_view_form
+msgid "Mo-Sa 08:00-20:00, Su 08:00-12:00"
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.fields.selection,name:letme_seo.selection__website__letme_business_type__mobilephonestore
+msgid "Mobile Phone Store"
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.fields,field_description:letme_seo.field_letme_seo_audit_line__res_model
+msgid "Model"
+msgstr ""
+
+#. module: letme_seo
+#. odoo-python
+#: code:addons/letme_seo/models/letme_seo_audit.py:0
+msgid "No Google Analytics or Plausible tracking is set."
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.fields.selection,name:letme_seo.selection__letme_seo_audit_line__issue__h1_missing
+msgid "No H1 heading"
+msgstr ""
+
+#. module: letme_seo
+#: model_terms:ir.actions.act_window,help:letme_seo.action_letme_seo_audit_line
+msgid "No SEO issue found"
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.fields.selection,name:letme_seo.selection__letme_seo_audit_line__issue__website_no_analytics
+msgid "No analytics"
+msgstr ""
+
+#. module: letme_seo
+#: model_terms:ir.actions.act_window,help:letme_seo.action_letme_seo_not_found
+msgid "No broken URL yet"
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.fields.selection,name:letme_seo.selection__letme_seo_audit_line__issue__website_no_social_image
+msgid "No default social image"
+msgstr ""
+
+#. module: letme_seo
+#. odoo-python
+#: code:addons/letme_seo/models/letme_seo_audit.py:0
+msgid ""
+"No default social share image: links shared on Facebook or Zalo show the "
+"logo instead."
+msgstr ""
+
+#. module: letme_seo
+#. odoo-python
+#: code:addons/letme_seo/models/letme_seo_audit.py:0
+msgid ""
+"Nothing could be filled automatically: the records have no text to use."
+msgstr ""
+
+#. module: letme_seo
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_audit_line_view_form
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_audit_line_view_list
+msgid "Open Record"
+msgstr ""
+
+#. module: letme_seo
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_not_found_view_list
+msgid "Open Redirect"
+msgstr ""
+
+#. module: letme_seo
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_audit_line_view_form
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_audit_line_view_list
+msgid "Open on Website"
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.fields,field_description:letme_seo.field_res_config_settings__letme_opening_hours
+#: model:ir.model.fields,field_description:letme_seo.field_website__letme_opening_hours
+#: model_terms:ir.ui.view,arch_db:letme_seo.res_config_settings_view_form
+msgid "Opening Hours"
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.fields.selection,name:letme_seo.selection__website__letme_business_type__organization
+msgid "Organization"
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.fields,field_description:letme_seo.field_letme_seo_audit_line__record_name
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_audit_line_view_search
+msgid "Page"
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.fields,help:letme_seo.field_letme_seo_not_found__last_referrer
+msgid "Page that linked to this URL the last time it was hit."
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.fields,field_description:letme_seo.field_letme_seo_not_found__path
+msgid "Path"
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.fields,field_description:letme_seo.field_res_config_settings__letme_price_range
+#: model:ir.model.fields,field_description:letme_seo.field_website__letme_price_range
+#: model_terms:ir.ui.view,arch_db:letme_seo.res_config_settings_view_form
+msgid "Price Range"
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.fields.selection,name:letme_seo.selection__website__letme_business_type__professionalservice
+msgid "Professional Service"
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.fields,field_description:letme_seo.field_letme_seo_audit_line__res_id
+msgid "Record ID"
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.fields,field_description:letme_seo.field_letme_seo_not_found__redirect_id
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_not_found_view_list
+msgid "Redirect"
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.fields.selection,name:letme_seo.selection__letme_seo_not_found__state__redirected
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_not_found_view_search
+msgid "Redirected"
+msgstr ""
+
+#. module: letme_seo
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_not_found_view_form
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_not_found_view_list
+msgid "Reopen"
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.fields.selection,name:letme_seo.selection__website__letme_business_type__restaurant
+msgid "Restaurant"
+msgstr ""
+
+#. module: letme_seo
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_audit_line_view_list
+msgid "Run Audit"
+msgstr ""
+
+#. module: letme_seo
+#: model_terms:ir.ui.view,arch_db:letme_seo.res_config_settings_view_form
+msgid "Run SEO Audit"
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.ui.menu,name:letme_seo.menu_letme_seo
+msgid "SEO"
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.actions.act_window,name:letme_seo.action_letme_seo_audit_line
+#: model:ir.ui.menu,name:letme_seo.menu_letme_seo_audit
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_audit_line_view_graph
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_audit_line_view_list
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_audit_line_view_pivot
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_audit_line_view_search
+#: model_terms:ir.ui.view,arch_db:letme_seo.res_config_settings_view_form
+msgid "SEO Audit"
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model,name:letme_seo.model_letme_seo_audit_line
+msgid "SEO Audit Issue"
+msgstr ""
+
+#. module: letme_seo
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_audit_line_view_form
+msgid "SEO Issue"
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.module.module,summary:base.module_letme_seo
+msgid ""
+"SEO audit, 404 log with one-click redirects, business schema, verification "
+"tags"
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.actions.server,name:letme_seo.ir_cron_letme_seo_audit_ir_actions_server
+msgid "SEO: audit websites"
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.actions.server,name:letme_seo.ir_cron_letme_seo_not_found_sync_ir_actions_server
+msgid "SEO: match 404 URLs with redirects"
+msgstr ""
+
+#. module: letme_seo
+#. odoo-python
+#: code:addons/letme_seo/models/letme_seo_audit.py:0
+msgid "Same text as: %(others)s"
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.fields,help:letme_seo.field_res_config_settings__letme_opening_hours
+#: model:ir.model.fields,help:letme_seo.field_website__letme_opening_hours
+msgid ""
+"Schema.org format, separated by commas. Example: Mo-Sa 08:00-20:00, Su "
+"08:00-12:00"
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.fields,help:letme_seo.field_res_config_settings__letme_business_type
+#: model:ir.model.fields,help:letme_seo.field_website__letme_business_type
+msgid "Schema.org type of the business shown to search engines on every page."
+msgstr ""
+
+#. module: letme_seo
+#: model_terms:ir.ui.view,arch_db:letme_seo.res_config_settings_view_form
+msgid "Search Engine Verification"
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.fields.selection,name:letme_seo.selection__letme_seo_audit_line__issue__website_no_search_console
+msgid "Search engine not verified"
+msgstr ""
+
+#. module: letme_seo
+#. odoo-python
+#: code:addons/letme_seo/models/letme_seo_audit.py:0
+msgid "Search engines cut descriptions after about %(max)s characters."
+msgstr ""
+
+#. module: letme_seo
+#. odoo-python
+#: code:addons/letme_seo/models/letme_seo_audit.py:0
+msgid "Search engines cut titles after about %(max)s characters."
+msgstr ""
+
+#. module: letme_seo
+#. odoo-python
+#: code:addons/letme_seo/models/letme_seo_audit.py:0
+msgid ""
+"Set the website domain (https://...) so canonical URLs, hreflang and the "
+"sitemap always use it."
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.fields,help:letme_seo.field_letme_seo_not_found__has_redirect
+msgid "Set when a redirect from this URL exists."
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.fields.selection,name:letme_seo.selection__letme_seo_audit_line__issue__h1_multiple
+msgid "Several H1 headings"
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.fields,field_description:letme_seo.field_letme_seo_audit_line__severity
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_audit_line_view_search
+msgid "Severity"
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.fields,field_description:letme_seo.field_letme_seo_audit_line__severity_order
+msgid "Severity Order"
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.fields,field_description:letme_seo.field_letme_seo_not_found__state
+msgid "State"
+msgstr ""
+
+#. module: letme_seo
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_not_found_view_search
+msgid "Status"
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.fields.selection,name:letme_seo.selection__website__letme_business_type__store
+msgid "Store"
+msgstr ""
+
+#. module: letme_seo
+#: model_terms:ir.ui.view,arch_db:letme_seo.res_config_settings_view_form
+msgid ""
+"Structured data on every page: business type, phone, address and social "
+"accounts of the company."
+msgstr ""
+
+#. module: letme_seo
+#. odoo-python
+#: code:addons/letme_seo/models/letme_seo_audit.py:0
+msgid "The page is published but asks search engines not to index it."
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.constraint,message:letme_seo.constraint_letme_seo_not_found_website_path_uniq
+msgid "This URL is already logged for this website."
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.fields.selection,name:letme_seo.selection__letme_seo_audit_line__issue__title_too_long
+msgid "Title too long"
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.fields.selection,name:letme_seo.selection__letme_seo_audit_line__issue__title_too_short
+msgid "Title too short"
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.fields.selection,name:letme_seo.selection__letme_seo_not_found__state__open
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_not_found_view_search
+msgid "To Fix"
+msgstr ""
+
+#. module: letme_seo
+#: model_terms:ir.ui.view,arch_db:letme_seo.res_config_settings_view_form
+msgid "Type"
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.fields,field_description:letme_seo.field_letme_seo_audit_line__url
+msgid "URL"
+msgstr ""
+
+#. module: letme_seo
+#. odoo-python
+#: code:addons/letme_seo/models/letme_seo_audit.py:0
+msgid ""
+"Verify the site in Google Search Console or Bing Webmaster Tools to follow "
+"indexing."
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model,name:letme_seo.model_website
+#: model:ir.model.fields,field_description:letme_seo.field_letme_seo_audit_line__website_id
+#: model:ir.model.fields,field_description:letme_seo.field_letme_seo_not_found__website_id
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_audit_line_view_search
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_not_found_view_search
+msgid "Website"
+msgstr ""
+
+#. module: letme_seo
+#: model_terms:ir.ui.view,arch_db:letme_seo.letme_seo_audit_line_view_search
+msgid "Website Settings"
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model,name:letme_seo.model_website_structured_data_mixin
+msgid "Website Structured Data Mixin"
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.fields.selection,name:letme_seo.selection__letme_seo_audit_line__issue__website_no_domain
+msgid "Website domain not set"
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model,name:letme_seo.model_website_rewrite
+msgid "Website rewrite"
+msgstr ""
+
+#. module: letme_seo
+#. odoo-python
+#: code:addons/letme_seo/models/letme_seo_audit.py:0
+msgid ""
+"Without a description, search engines pick a random sentence of the page."
+msgstr ""
+
+#. module: letme_seo
+#: model_terms:ir.ui.view,arch_db:letme_seo.res_config_settings_view_form
+msgid "Yandex"
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.fields,field_description:letme_seo.field_res_config_settings__letme_yandex_verification
+#: model:ir.model.fields,field_description:letme_seo.field_website__letme_yandex_verification
+msgid "Yandex Verification Code"
+msgstr ""
+
+#. module: letme_seo
+#: model_terms:ir.ui.view,arch_db:letme_seo.res_config_settings_view_form
+msgid "Zalo"
+msgstr ""
+
+#. module: letme_seo
+#: model:ir.model.fields,field_description:letme_seo.field_res_config_settings__letme_zalo_verification
+#: model:ir.model.fields,field_description:letme_seo.field_website__letme_zalo_verification
+msgid "Zalo Verification Code"
+msgstr ""
+
+#. module: letme_seo
+#: model_terms:ir.ui.view,arch_db:letme_seo.res_config_settings_view_form
+msgid "google-site-verification content"
+msgstr ""
+
+#. module: letme_seo
+#: model_terms:ir.ui.view,arch_db:letme_seo.res_config_settings_view_form
+msgid "msvalidate.01 content"
+msgstr ""

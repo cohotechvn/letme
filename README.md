@@ -27,3 +27,4 @@ Module Odoo 20 Community riêng của COHOTECH. Mọi module dùng tiền tố `
 | Module | Nội dung |
 |---|---|
 | `letme_base` | Vai trò COHOTECH, chỉ xem đơn của mình, chặn trùng số điện thoại khách, khoá sổ theo tháng |
+| `letme_seo` | Kiểm tra SEO toàn website, nhật ký lỗi 404 và tạo chuyển hướng, dữ liệu doanh nghiệp cho Google, thẻ xác minh Google/Bing/Zalo/Facebook |

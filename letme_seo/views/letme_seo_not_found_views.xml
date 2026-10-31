@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="letme_seo_not_found_view_list" model="ir.ui.view">
+        <field name="name">letme.seo.not.found.list</field>
+        <field name="model">letme.seo.not.found</field>
+        <field name="arch" type="xml">
+            <list string="404 Not Found" create="0"
+                  decoration-success="state == 'redirected'"
+                  decoration-muted="state == 'ignored'">
+                <header>
+                    <button name="action_ignore" type="object" string="Ignore"/>
+                    <button name="action_reopen" type="object" string="Reopen"/>
+                    <button name="action_refresh_redirects" type="object" string="Check Redirects"/>
+                </header>
+                <field name="path"/>
+                <field name="hits"/>
+                <field name="last_seen"/>
+                <field name="first_seen" optional="hide"/>
+                <field name="last_referrer" widget="url" optional="show"/>
+                <field name="last_user_agent" optional="hide"/>
+                <field name="website_id" groups="website.group_multi_website" optional="show"/>
+                <field name="state" widget="badge"
+                       decoration-danger="state == 'open'"
+                       decoration-success="state == 'redirected'"/>
+                <button name="action_create_redirect" type="object" string="Redirect" icon="fa-share"
+                        invisible="state != 'open'"/>
+                <button name="action_open_redirect" type="object" icon="fa-external-link" title="Open Redirect"
+                        invisible="state != 'redirected'"/>
+                <button name="action_ignore" type="object" string="Ignore" icon="fa-ban"
+                        invisible="state != 'open'"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="letme_seo_not_found_view_form" model="ir.ui.view">
+        <field name="name">letme.seo.not.found.form</field>
+        <field name="model">letme.seo.not.found</field>
+        <field name="arch" type="xml">
+            <form string="404 Not Found" create="0">
+                <header>
+                    <button name="action_create_redirect" type="object" string="Create Redirect" class="btn-primary"
+                            invisible="state != 'open'"/>
+                    <button name="action_ignore" type="object" string="Ignore" invisible="state != 'open'"/>
+                    <button name="action_reopen" type="object" string="Reopen" invisible="state != 'ignored'"/>
+                    <field name="state" widget="statusbar"/>
+                </header>
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="path"/>
+                            <field name="website_id" groups="website.group_multi_website"/>
+                            <field name="hits"/>
+                            <field name="redirect_id" invisible="not redirect_id"/>
+                        </group>
+                        <group>
+                            <field name="first_seen"/>
+                            <field name="last_seen"/>
+                            <field name="last_referrer" widget="url"/>
+                            <field name="last_user_agent"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="letme_seo_not_found_view_search" model="ir.ui.view">
+        <field name="name">letme.seo.not.found.search</field>
+        <field name="model">letme.seo.not.found</field>
+        <field name="arch" type="xml">
+            <search string="404 Not Found">
+                <field name="path"/>
+                <field name="last_referrer"/>
+                <field name="website_id" groups="website.group_multi_website"/>
+                <filter string="To Fix" name="open" domain="[('state', '=', 'open')]"/>
+                <filter string="Redirected" name="redirected" domain="[('state', '=', 'redirected')]"/>
+                <filter string="Ignored" name="ignored" domain="[('state', '=', 'ignored')]"/>
+                <separator/>
+                <filter string="Linked From Another Page" name="has_referrer" domain="[('last_referrer', '!=', False)]"/>
+                <filter string="Last Seen" name="last_seen" date="last_seen"/>
+                <group>
+                    <filter string="Status" name="group_state" context="{'group_by': 'state'}"/>
+                    <filter string="Website" name="group_website" context="{'group_by': 'website_id'}" groups="website.group_multi_website"/>
+                </group>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_letme_seo_not_found" model="ir.actions.act_window">
+        <field name="name">404 Not Found</field>
+        <field name="res_model">letme.seo.not.found</field>
+        <field name="path">seo-404</field>
+        <field name="view_mode">list,form</field>
+        <field name="context">{'search_default_open': 1}</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">No broken URL yet</p>
+            <p>Every URL of the website that answers "page not found" is listed here, with the number of visits, so you can redirect it to the right page.</p>
+        </field>
+    </record>
+
+    <menuitem id="menu_letme_seo_not_found"
+              name="404 Not Found"
+              parent="menu_letme_seo"
+              action="action_letme_seo_not_found"
+              sequence="20"/>
+</odoo>

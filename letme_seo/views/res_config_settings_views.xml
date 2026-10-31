@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="res_config_settings_view_form" model="ir.ui.view">
+        <field name="name">res.config.settings.view.form.inherit.letme.seo</field>
+        <field name="model">res.config.settings</field>
+        <field name="inherit_id" ref="website.res_config_settings_view_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//block[@id='website_settings']" position="inside">
+                <setting id="letme_seo_verification" string="Search Engine Verification"
+                         help="Meta tags asked by webmaster tools to prove you own the site. Paste only the content value.">
+                    <div class="content-group">
+                        <div class="row mt8">
+                            <label class="col-lg-4 o_light_label" string="Google" for="letme_google_verification"/>
+                            <field name="letme_google_verification" placeholder="google-site-verification content"/>
+                        </div>
+                        <div class="row">
+                            <label class="col-lg-4 o_light_label" string="Bing" for="letme_bing_verification"/>
+                            <field name="letme_bing_verification" placeholder="msvalidate.01 content"/>
+                        </div>
+                        <div class="row">
+                            <label class="col-lg-4 o_light_label" string="Yandex" for="letme_yandex_verification"/>
+                            <field name="letme_yandex_verification"/>
+                        </div>
+                        <div class="row">
+                            <label class="col-lg-4 o_light_label" string="Facebook" for="letme_facebook_verification"/>
+                            <field name="letme_facebook_verification"/>
+                        </div>
+                        <div class="row">
+                            <label class="col-lg-4 o_light_label" string="Zalo" for="letme_zalo_verification"/>
+                            <field name="letme_zalo_verification"/>
+                        </div>
+                    </div>
+                </setting>
+                <setting id="letme_seo_business" string="Business Information for Google"
+                         help="Structured data on every page: business type, phone, address and social accounts of the company.">
+                    <div class="content-group">
+                        <div class="row mt8">
+                            <label class="col-lg-4 o_light_label" string="Type" for="letme_business_type"/>
+                            <field name="letme_business_type"/>
+                        </div>
+                        <div class="row" invisible="letme_business_type == 'Organization'">
+                            <label class="col-lg-4 o_light_label" string="Opening Hours" for="letme_opening_hours"/>
+                            <field name="letme_opening_hours" placeholder="Mo-Sa 08:00-20:00, Su 08:00-12:00"/>
+                        </div>
+                        <div class="row" invisible="letme_business_type == 'Organization'">
+                            <label class="col-lg-4 o_light_label" string="Price Range" for="letme_price_range"/>
+                            <field name="letme_price_range" placeholder="$$"/>
+                        </div>
+                    </div>
+                </setting>
+                <setting id="letme_seo_image_preview" help="Allow Google to show large images of your pages in results and Discover.">
+                    <field name="letme_max_image_preview"/>
+                </setting>
+                <setting id="letme_seo_audit" string="SEO Audit"
+                         help="Check titles, descriptions, headings, images and duplicates of every published page, product and post.">
+                    <div>
+                        <button name="action_letme_seo_audit" type="object" string="Run SEO Audit"
+                                class="btn-link fw-normal border-0 p-0" icon="east"/>
+                    </div>
+                    <div>
+                        <button name="%(action_letme_seo_not_found)d" type="action" string="404 Not Found URLs"
+                                class="btn-link fw-normal border-0 p-0" icon="east"/>
+                    </div>
+                </setting>
+            </xpath>
+        </field>
+    </record>
+</odoo>
