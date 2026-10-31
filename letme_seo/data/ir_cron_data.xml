@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="ir_cron_letme_seo_audit" model="ir.cron">
+        <field name="name">SEO: audit websites</field>
+        <field name="model_id" ref="model_letme_seo_audit_line"/>
+        <field name="state">code</field>
+        <field name="code">model._cron_run_audit()</field>
+        <field name="interval_number">1</field>
+        <field name="interval_type">days</field>
+    </record>
+    <record id="ir_cron_letme_seo_not_found_sync" model="ir.cron">
+        <field name="name">SEO: match 404 URLs with redirects</field>
+        <field name="model_id" ref="model_letme_seo_not_found"/>
+        <field name="state">code</field>
+        <field name="code">model._cron_sync_redirects()</field>
+        <field name="interval_number">1</field>
+        <field name="interval_type">days</field>
+    </record>
+</odoo>

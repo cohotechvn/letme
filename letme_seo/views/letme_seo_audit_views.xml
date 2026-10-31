@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="letme_seo_audit_line_view_list" model="ir.ui.view">
+        <field name="name">letme.seo.audit.line.list</field>
+        <field name="model">letme.seo.audit.line</field>
+        <field name="arch" type="xml">
+            <list string="SEO Audit" create="0" edit="0"
+                  decoration-danger="severity == 'high'"
+                  decoration-warning="severity == 'medium'"
+                  decoration-muted="severity == 'low'">
+                <header>
+                    <button name="action_run_audit" type="object" string="Run Audit" class="btn-primary" display="always"/>
+                    <button name="action_autofix" type="object" string="Auto-fill Meta"/>
+                </header>
+                <field name="severity" widget="badge"
+                       decoration-danger="severity == 'high'"
+                       decoration-warning="severity == 'medium'"
+                       decoration-info="severity == 'low'"/>
+                <field name="issue"/>
+                <field name="res_model_name" optional="show"/>
+                <field name="record_name"/>
+                <field name="url" widget="url" optional="show"/>
+                <field name="length" optional="show"/>
+                <field name="message" optional="show"/>
+                <field name="website_id" groups="website.group_multi_website" optional="show"/>
+                <field name="can_autofix" column_invisible="1"/>
+                <button name="action_open_record" type="object" icon="fa-pencil" title="Open Record"/>
+                <button name="action_open_website" type="object" icon="fa-globe" title="Open on Website"/>
+                <button name="action_autofix" type="object" icon="fa-magic" title="Auto-fill Meta"
+                        invisible="not can_autofix"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="letme_seo_audit_line_view_form" model="ir.ui.view">
+        <field name="name">letme.seo.audit.line.form</field>
+        <field name="model">letme.seo.audit.line</field>
+        <field name="arch" type="xml">
+            <form string="SEO Issue" create="0" edit="0">
+                <header>
+                    <button name="action_open_record" type="object" string="Open Record" class="btn-primary"/>
+                    <button name="action_open_website" type="object" string="Open on Website"/>
+                    <button name="action_autofix" type="object" string="Auto-fill Meta" invisible="not can_autofix"/>
+                </header>
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="issue"/>
+                            <field name="severity"/>
+                            <field name="message"/>
+                        </group>
+                        <group>
+                            <field name="record_name"/>
+                            <field name="res_model_name"/>
+                            <field name="url" widget="url"/>
+                            <field name="website_id" groups="website.group_multi_website"/>
+                            <field name="can_autofix" invisible="1"/>
+                        </group>
+                    </group>
+                    <group string="Current Value" invisible="not value">
+                        <field name="value" nolabel="1" colspan="2"/>
+                        <field name="length"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="letme_seo_audit_line_view_search" model="ir.ui.view">
+        <field name="name">letme.seo.audit.line.search</field>
+        <field name="model">letme.seo.audit.line</field>
+        <field name="arch" type="xml">
+            <search string="SEO Audit">
+                <field name="record_name"/>
+                <field name="url"/>
+                <field name="issue"/>
+                <field name="website_id" groups="website.group_multi_website"/>
+                <filter string="High" name="high" domain="[('severity', '=', 'high')]"/>
+                <filter string="Medium" name="medium" domain="[('severity', '=', 'medium')]"/>
+                <filter string="Low" name="low" domain="[('severity', '=', 'low')]"/>
+                <separator/>
+                <filter string="Can Be Auto-filled" name="autofix"
+                        domain="[('issue', 'in', ('description_missing', 'description_too_long', 'title_too_long')), ('res_model', '!=', False)]"/>
+                <filter string="Website Settings" name="settings" domain="[('res_model', '=', False)]"/>
+                <group>
+                    <filter string="Issue" name="group_issue" context="{'group_by': 'issue'}"/>
+                    <filter string="Severity" name="group_severity" context="{'group_by': 'severity'}"/>
+                    <filter string="Document Type" name="group_model" context="{'group_by': 'res_model_name'}"/>
+                    <filter string="Page" name="group_record" context="{'group_by': 'record_name'}"/>
+                    <filter string="Website" name="group_website" context="{'group_by': 'website_id'}" groups="website.group_multi_website"/>
+                </group>
+            </search>
+        </field>
+    </record>
+
+    <record id="letme_seo_audit_line_view_graph" model="ir.ui.view">
+        <field name="name">letme.seo.audit.line.graph</field>
+        <field name="model">letme.seo.audit.line</field>
+        <field name="arch" type="xml">
+            <graph string="SEO Audit" type="bar" stacked="1">
+                <field name="issue"/>
+                <field name="severity"/>
+            </graph>
+        </field>
+    </record>
+
+    <record id="letme_seo_audit_line_view_pivot" model="ir.ui.view">
+        <field name="name">letme.seo.audit.line.pivot</field>
+        <field name="model">letme.seo.audit.line</field>
+        <field name="arch" type="xml">
+            <pivot string="SEO Audit">
+                <field name="issue" type="row"/>
+                <field name="res_model_name" type="col"/>
+            </pivot>
+        </field>
+    </record>
+
+    <record id="action_letme_seo_audit_line" model="ir.actions.act_window">
+        <field name="name">SEO Audit</field>
+        <field name="res_model">letme.seo.audit.line</field>
+        <field name="path">seo-audit</field>
+        <field name="view_mode">list,graph,pivot,form</field>
+        <field name="context">{'search_default_group_issue': 1}</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">No SEO issue found</p>
+            <p>Click "Run Audit" to check titles, descriptions, headings and images of every published page, product and post.</p>
+        </field>
+    </record>
+
+
+    <menuitem id="menu_letme_seo"
+              name="SEO"
+              parent="website.menu_reporting"
+              sequence="40"
+              groups="website.group_website_designer"/>
+
+    <menuitem id="menu_letme_seo_audit"
+              name="SEO Audit"
+              parent="menu_letme_seo"
+              action="action_letme_seo_audit_line"
+              sequence="10"/>
+</odoo>
